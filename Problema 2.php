@@ -63,11 +63,13 @@ $operacion2 = ($numero1 + $numero2) * $numero3;
 
     <!-- Operación sin paréntesis -->
     <p>
+        <div class="titulo">Operación 1 (Prioridad de operadores)</div>
         <?php echo "$numero1 + $numero2 * $numero3 = <span class='resultado'>$operacion1</span>"; ?>
     </p>
 
     <!-- Operación con paréntesis -->
     <p>
+        <div class="titulo">Operación 2 (Uso de paréntesis)</div>
         <?php echo "($numero1 + $numero2) * $numero3 = <span class='resultado'>$operacion2</span>"; ?>
     </p>
 
