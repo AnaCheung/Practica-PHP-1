@@ -74,31 +74,37 @@ $potencia = $numero1 ** $numero2;
     <!-- Mostrar resultados de cada operación -->
 
     <div class="operacion">
+        <div class="titulo">Suma</div>
         <!-- Suma -->
         <?php echo "$numero1 + $numero2 = <span class='resultado'>$suma</span>"; ?>
     </div>
 
     <div class="operacion">
+        <div class="titulo">Resta</div>        
         <!-- Resta -->
         <?php echo "$numero1 - $numero2 = <span class='resultado'>$resta</span>"; ?>
     </div>
 
     <div class="operacion">
+        <div class="titulo">Multiplicación</div>
         <!-- Multiplicación -->
         <?php echo "$numero1 * $numero2 = <span class='resultado'>$multiplicacion</span>"; ?>
     </div>
 
     <div class="operacion">
+        <div class="titulo">División</div>
         <!-- División -->
         <?php echo "$numero1 / $numero2 = <span class='resultado'>$division</span>"; ?>
     </div>
 
     <div class="operacion">
+        <div class="titulo">Módulo (Residuo)</div>
         <!-- Módulo -->
         <?php echo "$numero1 % $numero2 = <span class='resultado'>$modulo</span>"; ?>
     </div>
 
     <div class="operacion">
+        <div class="titulo">Potencia</div>
         <!-- Potencia -->
         <?php echo "$numero1 ^ $numero2 = <span class='resultado'>$potencia</span>"; ?>
     </div>
