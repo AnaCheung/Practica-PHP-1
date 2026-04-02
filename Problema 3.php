@@ -35,13 +35,6 @@ $mensaje = "HELLO WORLD!";
             text-align: center;
         }
 
-        /* Título del problema */
-        .titulo {
-            font-size: 18px;
-            color: #555;
-            margin-bottom: 10px;
-        }
-
         /* Estilo del mensaje */
         .resultado {
             font-size: 28px;
@@ -59,9 +52,7 @@ $mensaje = "HELLO WORLD!";
          Mostrar un mensaje de saludo
     ========================================== -->
     
-    <div class="titulo">
-        Problema 3: Mostrar un mensaje de saludo
-    </div>
+     <h2>Problema 3: Mostrar un mensaje de saludo</h2>
 
     <div class="resultado">
         <!-- Se imprime el contenido de la variable -->
